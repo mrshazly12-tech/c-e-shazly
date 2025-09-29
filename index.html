@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>C&E Unit Galfar</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-left">
+      <h1 class="brand">C&E Unit Galfar</h1>
+    </div>
+    <div class="header-right">
+      <button id="staffBtn" class="btn">Show Staff</button>
+      <button id="downloadBtn" class="btn secondary">Download Data</button>
+    </div>
+  </header>
+  <main class="main-area">
+    <section class="hero">
+      <div class="moving-icon">C&E</div>
+      <div class="hero-content">
+        <h2>Welcome to C&E Unit Galfar</h2>
+        <p class="lead">Operations • Efficiency • Safety</p>
+      </div>
+    </section>
+    <section class="media-row">
+      <div class="slideshow" id="slideshow">
+        <img src="assets/slide1.jpg" alt="slide 1">
+        <img src="assets/slide2.jpg" alt="slide 2">
+        <img src="assets/slide3.jpg" alt="slide 3">
+      </div>
+      <div class="video-wrap">
+        <video id="bgVideo" loop muted playsinline>
+          <source src="assets/sample-video.mp4" type="video/mp4">
+        </video>
+        <div class="video-controls">
+          <button id="repeatVideo" class="btn small">Repeat</button>
+        </div>
+      </div>
+    </section>
+    <section class="staff-section" id="staffSection">
+      <h3>Staff (Local GUI)</h3>
+      <form id="staffForm" class="staff-form">
+        <input id="staffName" placeholder="Full name" required>
+        <input id="staffPos" placeholder="Position" required>
+        <button class="btn" type="submit">Add</button>
+      </form>
+      <ul id="staffList" class="staff-list"></ul>
+    </section>
+  </main>
+  <footer class="site-footer">© <span id="year"></span> C&E Unit Galfar</footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS staff (id INTEGER PRIMARY KEY, name TEXT, position TEXT);

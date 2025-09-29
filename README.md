@@ -1,0 +1,3 @@
+# C&E Unit Galfar — Website Template
+This package contains a complete, ready-to-run website template (HTML/CSS/JS) plus a simple Node.js + SQLite backend...
+See full instructions inside.
